@@ -5,10 +5,11 @@
 //     $(event.currentTarget).addClass('active');
 //   })
 // }
+'use strict';
 
 function hover2(){
   $('.grid').on('mouseover', '.cell', event => {
-    console.log($(this),$(event.currentTarget));
+    //console.log($(this),$(event.currentTarget));
     $(event.currentTarget).addClass('active');
   })
 }
